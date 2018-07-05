@@ -1,3 +1,4 @@
+
 /***** BASE STYLES *****/
 body
 {font-family: 'Source Sans Pro', sans-serif;
@@ -35,13 +36,17 @@ color: #2b2b2b;
 	}
 
 /***** HEADER *****/
-.header-image
-{  		height:100px;
-		margin-right: 30px;
- 	}
+header
+{
+  height:800px ;
+  background: url('../img/hero.png');
+  background-size: cover;
+
+}
 header h1{
 	padding:50px 0;
 	font-family: 'Lora', serif;
+	color: #0000ff;
 }
 nav{
 	float:right;
@@ -60,22 +65,20 @@ nav ul li a{
 header h2{
 	width: 1062px;
 	clear: both;
-	font-family: 'Lora', serif;
+	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 72px;
 	line-height: 76px;
 	color: grey;
 	padding: 52px 0;
 }
-
 /***** ABOUT *****/
-
 #about.full-width{
 		padding: 80px 0px;
 		}
 
 #about h2 {
     font-family: 'Lora', serif;
-    font-size: 36px;
+    font-size: 34px;
     padding-top: 20px;
 }
 #about p {
@@ -124,8 +127,10 @@ header h2{
 #contact .full-width{
 	padding: 110px 0;
 }
-#contact img#contact-img{
-	border: 12px solid #ffffff;
+#contact img{
+	border: 12px;
+	border-color: #ffffff;
+
 }
 #contact h2, #contact #email-header, #contact #socialmedia-header,#contact ul {
     padding-left: 115px;
@@ -133,7 +138,6 @@ header h2{
 #contact #envelope {
     padding: 0 10px 0 115px;
 }
-
 #contact h2 {
 	font-family: 'Lora' sans-serif;
 	font-size: 34px;
